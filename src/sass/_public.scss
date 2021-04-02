@@ -1,0 +1,18 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,hr,ul,ol,td,input,option,textarea{
+	margin:0;
+	padding:0;
+}
+body{
+	background: #f3f4f6 url(../img/wrap_bg.png) no-repeat 0 185px;
+    color: #3a3f4a;
+    font:12px/1.6em Microsoft YaHei,Tahoma,simsun;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
