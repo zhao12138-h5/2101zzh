@@ -1,15 +1,4 @@
 {
-    "name": "导航",
-    "nav":
-    [
-      {"id":"1","name": "所有游戏分类", "value":  "javascript:return false;"},
-       {"id":"1","name": "首页",     "value":  "index.html"},
-       {"id":"4","name": "淘宝贝",   "value":  "index.html"},
-       {"id":"5","name": "聚诚品",   "value":  "index.html"},
-       {"id":"6","name": "手游中心", "value":  "index.html"},
-       {"id":"7","name": "聚豆商城", "value":  "index.html"},
-       {"id":"8","name": "个人商城", "value":  "index.html"}
-    ],
     "slideName": "轮播",
     "slideValue":
     [
@@ -19,28 +8,26 @@
        {"id":"4","value": "index.html", "img": "img/20201211163627_385711.jpg"},
        {"id":"5","value": "index.html", "img": "img/20210317105307_402557.jpg"},
        {"id":"6","value": "index.html", "img": "img/20200721155336_915950.jpg"},
-       {"id":"7","value": "index.html", "img": "img/20210323152536_354527.jpg"},
-       {"id":"8","value": "index.html", "img": "img/20210323152536_354527.jpg"}
+       {"id":"7","value": "index.html", "img": "img/20210323152536_354527.jpg"}
     ],
     "leftName":"左导航",
     "leftNav": 
     [
-      
-      {"id":"2","name": "热门游戏", "value":  "index.html"},
-      {"id":"3","name": "角色扮演", "value":    "#"},
-      {"id":"4","name": "竞技游戏", "value":  "index.html"},
-      {"id":"5","name": "休闲游戏", "value":  "index.html"},
-      {"id":"6","name": "网页游戏", "value":  "index.html"}
+      {"id":"1","name": "热门游戏", "value":  "index.html"},
+      {"id":"2","name": "角色扮演", "value":    "#"},
+      {"id":"3","name": "竞技游戏", "value":  "index.html"},
+      {"id":"4","name": "休闲游戏", "value":  "index.html"},
+      {"id":"5","name": "网页游戏", "value":  "index.html"}
     ],
     "hotName":"热图",
     "hotValue":
     [
-       {"id":"1","value": "index.html", "img": "img/N-lol-1-100000-148254.jpg"},
-       {"id":"2","value": "index.html", "img": "img/N-lol-1-100000-148255.jpg"},
-       {"id":"3","value": "index.html", "img": "img/N-lol-1-100000-148257.jpg"},
-       {"id":"4","value": "index.html", "img": "img/N-lol-1-100000-148256.jpg"},
-       {"id":"5","value": "index.html", "img": "img/N-lol-1-100000-148259.jpg"},
-       {"id":"6","value": "index.html", "img": "img/pkg-26325.jpg"}
+       {"id":"1","value": "../dist/pages/shoplist.html", "img": "img/N-lol-1-100000-148254.jpg"},
+       {"id":"2","value": "../dist/pages/shoplist.html", "img": "img/N-lol-1-100000-148255.jpg"},
+       {"id":"3","value": "../dist/pages/shoplist.html", "img": "img/N-lol-1-100000-148257.jpg"},
+       {"id":"4","value": "../dist/pages/shoplist.html", "img": "img/N-lol-1-100000-148256.jpg"},
+       {"id":"5","value": "../dist/pages/shoplist.html", "img": "img/N-lol-1-100000-148259.jpg"},
+       {"id":"6","value": "../dist/pages/shoplist.html", "img": "img/pkg-26325.jpg"}
     ],
     "hottext":"热字1",
     "hotTextValue": 
@@ -55,12 +42,12 @@
     "hottext2":"热字2",
     "hotTextValue2": 
     [
-      {"id":"1","name": "战斗学院 凯特琳", "value":  "index.html"},
-      {"id":"2","name": "战斗学院 孙悟空", "value":  "index.html"},
-      {"id":"3","name": "战斗学院 蕾欧娜", "value":  "index.html"},
-      {"id":"4","name": "战斗学院 盖伦",   "value":  "index.html"},
-      {"id":"5","name": "战斗学院 永恩",   "value":  "index.html"},
-      {"id":"6","name": "小蜜蜂 克格莫 炫彩礼包", "value":  "index.html"}
+      {"id":"1","name": "战斗学院 凯特琳", "value":  "../dist/pages/shoplist.html"},
+      {"id":"2","name": "战斗学院 孙悟空", "value":  "../dist/pages/shoplist.html"},
+      {"id":"3","name": "战斗学院 蕾欧娜", "value":  "../dist/pages/shoplist.html"},
+      {"id":"4","name": "战斗学院 盖伦",   "value":  "../dist/pages/shoplist.html"},
+      {"id":"5","name": "战斗学院 永恩",   "value":  "../dist/pages/shoplist.html"},
+      {"id":"6","name": "小蜜蜂 克格莫 炫彩礼包", "value":  "../dist/pages/shoplist.html"}
     ],
     "hottext3":"热字3",
     "hotTextValue3": 
@@ -92,6 +79,35 @@
       {"id":"5","name": "热卖推荐", "value":  "#"},
       {"id":"6","name": "热卖推荐", "value":  "#"}
     ],
+    "leftname11": "左导航11",
+    "leftnav11":
+    [
+       {"id":"1","name": "FIFA OL4",     "value":  "//daoju.qq.com/fo4/"},
+       {"id":"2","name": "NBA2KOL2",   "value":  "//daoju.qq.com/nba2k2/"},
+       {"id":"3","name": "冒险岛2",   "value":  "//daoju.qq.com/mxd2/"},
+       {"id":"4","name": "火影忍者Online", "value":  "//daoju.qq.com/hyol/"},
+       {"id":"5","name": "NBA2KOL", "value":  "//daoju.qq.com/nba2k/"},
+       {"id":"6","name": "地下城与勇士", "value":  "//daoju.qq.com/dnf/"},
+       {"id":"7","name": "CODOL使命召唤Online", "value":  "//daoju.qq.com/codol/"},
+       {"id":"8","name": "天堂2", "value":  "//daoju.qq.com/sg/"}
+    ],
+    "leftname12": "左导航12",
+    "leftnav12":
+    [
+      {"id":"1","name": "英雄联盟",     "value":  "//daoju.qq.com/lol/"},
+      {"id":"2","name": "穿越火线",   "value":  "//daoju.qq.com/cf/"},
+      {"id":"3","name": "剑灵",   "value":  "//daoju.qq.com/bns/"},
+      {"id":"4","name": "御龙在天", "value":  "//daoju.qq.com/yl/"},
+      {"id":"5","name": "逆战", "value":  "//daoju.qq.com/nz/"},
+      {"id":"6","name": "飞车", "value":  "//daoju.qq.com/speed/"},
+      {"id":"7","name": "天涯明月刀", "value":  "//daoju.qq.com/wuxia/"},
+      {"id":"8","name": "炫舞", "value":  "//daoju.qq.com/x5/"}
+   ],
+   "leftname13": "左导航13",
+   "leftnav13":
+   [
+    
+  ],
     "leftname31": "左导航31",
     "leftnav31":
     [
@@ -121,6 +137,14 @@
    [
      {"id":"1","name": "御龙在天",     "value":  "//daoju.qq.com/yl/"},
      {"id":"2","name": "天涯明月刀",   "value":  "//daoju.qq.com/wuxia/"}
+  ],
+  "botactname": "最下活动",
+   "botactvalue":
+   [
+     {"id":"1","img": "img/20170728172416_963637.jpg",   "value":  "#"},
+     {"id":"2","img": "img/20151216151026_325230.jpg",   "value":  "#"},
+     {"id":"3","img": "img/20160226162551_787265.jpg",   "value":  "#"}
   ]
+  
 }
   

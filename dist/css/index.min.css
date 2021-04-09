@@ -1,5 +1,23 @@
 @charset "UTF-8";
-body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, hr, ul, ol, td, input, option, textarea {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+hr,
+ul,
+ol,
+td,
+input,
+option,
+textarea {
   margin: 0;
   padding: 0;
 }
@@ -7,7 +25,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, hr, ul, ol, td, input, option, 
 body {
   background: #f3f4f6 url(../img/wrap_bg.png) no-repeat 0 185px;
   color: #3a3f4a;
-  font: 12px/1.6em Microsoft YaHei,Tahoma,simsun;
+  font: 12px/1.6em Microsoft YaHei, Tahoma, simsun;
 }
 
 li {
@@ -20,6 +38,556 @@ a {
 
 img {
   border: none;
+}
+
+input {
+  outline: none;
+}
+
+.navtopbg {
+  width: 100%;
+  background: #f9f9f9;
+  height: 30px;
+}
+
+.navtop {
+  width: 1190px;
+  background: #f9f9f9;
+  height: 30px;
+  line-height: 30px;
+  color: #666;
+  margin: 0 auto;
+}
+
+.navtop i {
+  color: #e7e7e7;
+  font-style: normal;
+  margin: 0 10px;
+}
+
+.navtop a {
+  color: #666;
+}
+
+.navtop a:last-child {
+  padding: 2px;
+  background: white;
+  border: 1px solid #f3f4f6;
+}
+
+.navtop p {
+  display: inline-block;
+  margin-left: 600px;
+}
+
+.navtop #logout {
+  cursor: pointer;
+}
+
+.navtop #logout:hover {
+  color: red;
+}
+
+.publiclogo {
+  width: 1889px;
+  height: 125px;
+  background: url(//js01.daoju.qq.com/mall/images/channelmall/lol/bg-head.jpg) no-repeat top center;
+  margin: 0 auto;
+}
+
+.publiclogo .publiclogodiv {
+  width: 1190px;
+  height: 125px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.publiclogo .publiclogodiv .logoig {
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  left: -23px;
+  top: 32px;
+  background: url("../../dist/img/navico.png") no-repeat -660px 0;
+}
+
+.publiclogo .publiclogodiv .ss {
+  width: 372px;
+  position: absolute;
+  top: 50px;
+  left: 364px;
+  height: 36px;
+}
+
+.publiclogo .publiclogodiv .ss input {
+  float: left;
+  width: 313px;
+  padding: 2px 10px 0 10px;
+  height: 34px;
+  line-height: 30px;
+  border: 0;
+  border-top: 1px solid #3a3f4a;
+  border-bottom: 1px solid #3a3f4a;
+  color: #aaa8a8;
+  background: none;
+}
+
+.publiclogo .publiclogodiv .ss .btn {
+  float: right;
+  width: 38px;
+  height: 38px;
+  text-indent: -9999px;
+  display: block;
+  border: 1px solid #3a3f4a;
+  cursor: pointer;
+  background: url("../../dist/img/navico.png") no-repeat -952px 2px;
+}
+
+.publiclogo .publiclogodiv .publiclol {
+  width: 223px;
+  height: 59px;
+  position: absolute;
+  right: 217px;
+  top: 39px;
+  background: url("../../dist/img/navico.png") no-repeat -432px 0px;
+}
+
+.publiclogo .publiclist {
+  width: 100%;
+  height: 76px;
+  margin: 0 auto;
+  background: #2e2e2e;
+}
+
+.publiclogo .publiclist ul {
+  display: block;
+  width: 1190px;
+  height: 76px;
+  margin: 0 auto;
+  background: #2e2e2e;
+  position: relative;
+}
+
+.publiclogo .publiclist ul li:hover a {
+  color: red;
+}
+
+.publiclogo .publiclist ul a {
+  float: left;
+  width: 134px;
+  height: 76px;
+  display: block;
+  text-align: center;
+  line-height: 76px;
+  font-size: 18px;
+  color: #9f9f9f;
+}
+
+.publiclogo .publiclist ul #cart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 192px;
+  color: #ff5900;
+  display: none;
+}
+
+.publiclogo .publiclist ul .cartimg {
+  display: block;
+  width: 28px;
+  height: 24px;
+  background: url("../../dist/img/navico.png") no-repeat -239px -5px;
+  z-index: 20;
+  position: absolute;
+  right: 148px;
+  top: 24px;
+}
+
+.cartHead {
+  height: 130px;
+}
+
+.footbg {
+  width: 100%;
+  background: #3b3f4a;
+  margin-top: 50px;
+  height: 400px;
+  clear: both;
+}
+
+.footbg footer {
+  padding: 0 0 0 28px;
+  width: 1252px;
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+  border-bottom: 1px solid #525763;
+}
+
+.footbg footer .foot-t1 {
+  width: 211px;
+  float: left;
+  border-right: 1px solid #444853;
+  height: 150px;
+  position: relative;
+  margin-top: 28px;
+  margin-left: 20px;
+}
+
+.footbg footer .foot-t1 s {
+  float: left;
+  margin: 0 10px 0 24px;
+  width: 32px;
+  height: 32px;
+}
+
+.footbg footer .foot-t1 img {
+  position: absolute;
+  top: -14px;
+  left: 0;
+  display: inline-block;
+}
+
+.footbg footer .foot-t1 h4 {
+  margin: -1px 0 0 63px;
+  font: normal 16px/32px "Microsoft YaHei";
+  color: #acb1bb;
+}
+
+.footbg footer .foot-t1 .foot-ul {
+  margin-left: 65px;
+}
+
+.footbg footer .foot-t1 .foot-ul li {
+  width: 100px;
+  height: 24px;
+  line-height: 24px;
+  display: block;
+  overflow: hidden;
+}
+
+.footbg footer .foot-t1 .foot-ul li a {
+  color: #acb1bb;
+  font-size: 12px;
+}
+
+.footbg footer .copy {
+  position: absolute;
+  right: 382px;
+  top: 100px;
+}
+
+.footbg footer .QRcode {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.footbg footer .QRcode img {
+  width: 100px;
+  height: 100px;
+  border: 0;
+  margin-top: 10px;
+}
+
+.footbg footer .QRcode span {
+  text-align: center;
+  font-size: 16px;
+  color: #a4abb4;
+  line-height: 18px;
+  display: block;
+}
+
+.footbg .foot-bot {
+  margin: 0 auto;
+  width: 1280px;
+}
+
+.footbg .foot-bot #footer-ied {
+  background: #3b3f4a;
+  padding: 30px 0 60px 0;
+  text-align: center;
+  line-height: 19px;
+  font-size: 12px;
+  border-top: 1px solid #444853;
+  color: #81858f;
+}
+
+.footbg .foot-bot #footer-ied a {
+  color: #81858f;
+}
+
+/*返回顶部*/
+#BackToTop {
+  float: left;
+  display: none;
+  color: #3a3f4a;
+  margin: 0 5px;
+  padding: 3px 8px 3px;
+  font-size: 12px;
+  position: fixed;
+  top: 800px;
+  right: 10px;
+  background-color: white;
+  border: 1px solid #e1e1e1;
+  z-index: 9999;
+}
+
+#BackToTop span {
+  display: block;
+  padding: 15px 0 0;
+  line-height: 42px;
+  cursor: pointer;
+  background: url(../../dist/img/comico1.png) no-repeat;
+  background-position: 7px -95px;
+}
+
+#BackToTop:hover {
+  background: #f74a4a;
+  color: #fff;
+  border-color: #f74a4a;
+}
+
+#BackToTop:hover span {
+  background: url(../../dist/img/comico2.png) no-repeat;
+  background-position: 7px -38px;
+}
+
+.fk {
+  width: 64px;
+  height: 27px;
+  display: block;
+  position: fixed;
+  top: 867px;
+  right: 15px;
+  background: white;
+  border: 1px solid #e1e1e1;
+  text-align: center;
+  line-height: 27px;
+  color: #3a3f4a;
+}
+
+.fk:hover {
+  background: #f74a4a;
+  color: #fff;
+  border-color: #f74a4a;
+}
+
+/*返回顶部结束*/
+.tabs-vertical {
+  background-color: #f7f7f7;
+  margin: 30px 0 30px 0;
+  max-width: 580px;
+  text-align: center;
+  z-index: 9999;
+  position: absolute;
+  top: -30px;
+  left: -1px;
+  /* The tabs */
+  /* The content */
+}
+
+.tabs-vertical ul {
+  float: left;
+  list-style: none;
+  text-align: left;
+  margin: 0;
+  padding-left: 0;
+}
+
+.tabs-vertical ul li {
+  margin-right: -1px;
+}
+
+.tabs-vertical ul li a {
+  font: 16px/64px 'Microsoft Yahei', '黑体';
+  width: 189px;
+  height: 65px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #f55656;
+  border-bottom: 1px solid #ee4545;
+  border-right: 0;
+  border-left: 0;
+  background-color: #f55656;
+}
+
+.tabs-vertical ul li a.tab-active {
+  color: #656a6d;
+  border-color: #e5e5e5;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 0px #EFEFEF;
+}
+
+.tabs-vertical ul li:first-child a {
+  border-top: 0;
+}
+
+.tabs-vertical .tabs-content-placeholder {
+  overflow: hidden;
+  border-left: 1px solid #dddddd;
+  font-weight: normal;
+  background-color: #fff;
+  /* padding: 20px 40px 45px; */
+  margin: 0 auto;
+  box-shadow: -3px 0 0px #F3F3F3;
+  text-align: center;
+  z-index: 999999;
+}
+
+.tabs-vertical .tabs-content-placeholder div {
+  display: none;
+}
+
+.tabs-vertical .tabs-content-placeholder div p {
+  color: #565a5c;
+  line-height: 1.5;
+  text-align: left;
+  margin: 5px 0 20px;
+}
+
+.tabs-vertical .tabs-content-placeholder div img {
+  max-width: 100%;
+}
+
+.tabs-vertical .tabs-content-placeholder div.tab-content-active {
+  display: block;
+}
+
+.logobg {
+  width: 100%;
+  background: #fff;
+  height: 125px;
+}
+
+.logo {
+  width: 1190px;
+  margin: -41px auto;
+  background: #fff;
+  position: relative;
+  height: 125px;
+}
+
+.logo img:first-child {
+  float: left;
+  height: 100px;
+  display: block;
+  text-indent: -9999px;
+  margin-left: 18px;
+}
+
+.logo .ss {
+  width: 491px;
+  margin: 41px 0 0 426px;
+  height: 36px;
+}
+
+.logo .ss span {
+  float: left;
+  display: block;
+  width: 116px;
+  height: 36px;
+  border: 1px solid #f55656;
+  border-right: 1px solid #eee;
+  text-align: center;
+  line-height: 36px;
+  color: #333;
+  position: relative;
+  cursor: pointer;
+  position: absolute;
+  left: 434px;
+  top: 19px;
+}
+
+.logo .ss span:hover .choose {
+  display: block;
+}
+
+.logo .ss .choose {
+  width: 395px;
+  background: white;
+  position: absolute;
+  top: 37px;
+  left: -1px;
+  border: 1px solid #eee;
+  z-index: 999;
+  display: none;
+}
+
+.logo .ss .choose dl {
+  display: block;
+  border-top: 1px solid #e5e5e5;
+  padding: 10px;
+  margin-top: -1px;
+  line-height: 26px;
+  float: left;
+}
+
+.logo .ss .choose dl dt {
+  font-weight: 800;
+  float: left;
+}
+
+.logo .ss .choose dl dd {
+  margin-left: 70px;
+}
+
+.logo .ss .choose dl dd a, .logo .ss .choose dl dd i {
+  display: block;
+  float: left;
+  white-space: nowrap;
+}
+
+.logo .ss .choose dl dd a {
+  color: #3a3f4a;
+  text-decoration: none;
+  outline: none;
+}
+
+.logo .ss .choose dl dd a:hover {
+  color: red;
+}
+
+.logo .ss .choose dl dd i {
+  font-style: normal;
+  margin: 0 5px;
+}
+
+.logo .ss input {
+  float: left;
+  width: 313px;
+  padding: 2px 10px 0 10px;
+  height: 34px;
+  line-height: 30px;
+  border: 0;
+  border-top: 1px solid #f55656;
+  border-bottom: 1px solid #f55656;
+  color: #aaa8a8;
+  position: absolute;
+  left: 551px;
+  top: 19px;
+}
+
+.logo .ss .btn {
+  float: right;
+  width: 38px;
+  height: 38px;
+  text-indent: -9999px;
+  display: block;
+  border: 0;
+  cursor: pointer;
+  background: url(https://js02.daoju.qq.com/common/images/btn.png) no-repeat;
+  position: absolute;
+  left: 884px;
+  top: 19px;
+}
+
+.logo .APP {
+  position: absolute;
+  right: 0;
+  bottom: 2px;
 }
 
 /* 轮播图 */
@@ -47,7 +615,7 @@ img {
 .ft-carousel .carousel-inner .carousel-item img {
   width: 100%;
   width: 770px;
-  height: 330px;
+  height: 336px;
 }
 
 .ft-carousel .carousel-indicators {
@@ -94,7 +662,7 @@ img {
 
 .example {
   width: 770px;
-  height: 330px;
+  height: 336px;
   font-size: 40px;
   margin: 32px auto;
   background-color: #464576;
@@ -108,7 +676,7 @@ img {
 /* header */
 #header {
   width: 1190px;
-  background: #cc6633;
+  height: 337px;
   margin: 0 auto;
   position: relative;
 }
@@ -122,10 +690,31 @@ img {
 .navbg #nav {
   width: 1190px;
   height: 54px;
-  margin-left: 356px;
+  margin: 0 auto;
+  position: relative;
 }
 
-.navbg #nav a {
+.navbg #nav #list .nf {
+  background: #eb4c4c;
+  color: #ff9191;
+}
+
+.navbg #nav #list li a:hover {
+  background: #eb4c4c;
+  color: white;
+}
+
+.navbg #nav #list li:last-child a {
+  width: 220px;
+  height: 35px;
+  background: #eb4c4c;
+  color: #eee;
+  line-height: 20px;
+  margin-top: 5px;
+  margin-left: 18px;
+}
+
+.navbg #nav #list a {
   float: left;
   color: #acb1bb;
   font: 16px/32px 'Microsoft Yahei', '黑体';
@@ -138,7 +727,7 @@ img {
   border-bottom: 3px solid #3a3f4a;
 }
 
-.navbg #nav a:first-child {
+.navbg #nav #list .nf a {
   background: #eb4c4c;
   color: #ff9191;
   height: 42px;
@@ -147,28 +736,127 @@ img {
   width: 190px;
 }
 
-.left-nav {
+.navbg #nav #list .spop:hover .sp {
+  display: block;
+}
+
+.navbg #nav .sp {
+  display: block;
+  width: 126px;
+  height: 92px;
+  background: white;
+  position: absolute;
+  bottom: -92px;
+  left: 316px;
+  z-index: 999;
+  display: none;
+}
+
+.navbg #nav .sp a {
+  width: 126px;
+  height: 41px;
+  display: block;
+  margin-top: 5px;
+  font: 16px/32px 'Microsoft Yahei', '黑体';
+  text-align: center;
+  color: #77787a96;
+}
+
+.navbg #nav .sp a:hover {
+  color: #eb4c4c;
+}
+
+.rg-nav {
+  margin-top: -19px;
+  width: 230px;
+  height: 336px;
+  float: right;
+  background: #fff;
+}
+
+.rg-nav span {
+  display: block;
+  margin: 25px 0px 0px 0;
+  padding-left: 20px;
+  border-bottom: 1px solid #eee;
+  height: 50px;
+  width: 230px;
+}
+
+.rg-nav span #logout:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.rg-nav .lo {
+  height: 125px;
+  width: 215px;
+  padding-left: 15px;
+  padding-top: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+.rg-nav .lo h5 {
+  margin-bottom: 10px;
+}
+
+.rg-nav .lo a {
   position: relative;
 }
 
-.left-nav #left-list a {
-  width: 189px;
-  height: 64px;
-  font: 16px/64px 'Microsoft Yahei', '黑体';
-  background: #f55656;
-  color: #fff;
-  border: 1px solid #f55656;
-  border-bottom: 1px solid #ee4545;
-  border-right: 0;
-  display: block;
-  cursor: pointer;
-  line-height: 64px;
-  text-align: center;
+.rg-nav .lo a i {
+  font-style: normal;
+  position: absolute;
+  bottom: -18px;
+  left: 2px;
+}
+
+.rg-nav .lo a img {
+  margin-right: 15px;
+}
+
+.rg-nav .lo a:last-child i {
+  left: 11px;
+}
+
+.rg-nav .lo i:hover {
+  color: red;
+}
+
+.rg-nav .notice-list {
+  padding: 7px 0 10px 10px;
+  margin: 0 5px;
+  height: 100px;
+  width: 210px;
+  overflow: hidden;
+}
+
+.rg-nav .notice-list .sm_tt {
+  font-weight: 800;
+  line-height: 20px;
+  padding-bottom: 2px;
+}
+
+.rg-nav .notice-list a {
+  color: #666;
+  float: left;
+  width: 160px;
+  height: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rg-nav .notice-list i {
+  float: right;
+  width: 40px;
+  font-style: normal;
+  color: #999;
+  text-align: left;
 }
 
 .hot {
   width: 1190px;
-  height: 300px;
+  height: 315px;
   margin: 0 auto;
 }
 
@@ -176,7 +864,8 @@ img {
   width: 953px;
   float: left;
   display: block;
-  background: cornflowerblue;
+  background: white;
+  overflow: hidden;
 }
 
 .hot-img img {
@@ -235,21 +924,56 @@ img {
   cursor: pointer;
 }
 
-.col-3 {
-  height: 330px;
+.hot-rg {
+  width: 230px;
+  height: 290px;
+  background: white;
+  float: right;
+  text-align: center;
+}
+
+.hot-rg img {
+  width: 215px;
+  margin-top: 10px;
+}
+
+.hot-rg .red {
+  color: #f74a4a;
+  margin-left: -76px;
+}
+
+.left-nav {
+  position: relative;
+  height: 336px;
+  display: block;
+}
+
+.col {
+  width: 402px;
+  height: 336px;
   position: absolute;
-  top: 53px;
+  top: 1px;
   left: 190px;
   background: white;
   z-index: 9999;
+  background: url(../../dist/img/nav_box.png);
+  display: none;
 }
 
-#left-list a:hover {
-  background: white;
-  color: black;
+.col .inner {
+  padding-top: 10px;
+  height: 336px;
+  float: left;
 }
 
-.left-nav .col-3 a {
+.col .inner li {
+  display: block;
+  width: 134px;
+  height: 36px;
+  text-align: center;
+}
+
+.col .inner li a {
   display: block;
   width: 95px;
   height: 35px;
@@ -258,35 +982,16 @@ img {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  color: #3a3f4a;
 }
 
-.left-nav .col-3 a:hover {
+.col .inner li a:hover {
   color: red;
-}
-
-.left-nav .col-3 {
-  width: 377px;
-  display: none;
-}
-
-#left-list a:nth-of-type(3):hover .col-3 {
-  display: block;
-}
-
-.left-nav .col-3 .inner {
-  background: url(//js02.daoju.qq.com/common/images/nav_box.png) repeat-y -8px 0;
-  height: 315px;
-}
-
-.left-nav .col-3 .inner .dev {
-  float: left;
-  display: inline;
 }
 
 .slide2bg {
   width: 1190px;
   height: 239px;
-  background: lightcyan;
   margin: 0 auto 20px;
 }
 
@@ -312,9 +1017,8 @@ img {
 }
 
 .slide2bg .slide2 {
-  width: 956px;
+  width: 958px;
   height: 216px;
-  background: #464576;
   float: left;
 }
 
@@ -352,12 +1056,56 @@ img {
   font-weight: bold;
 }
 
+.aa {
+  font: 18px/24px 'Microsoft Yahei';
+}
+
+.saosao {
+  height: 216px;
+  width: 230px;
+  background: white;
+  float: right;
+  text-align: center;
+  position: relative;
+}
+
+.saosao span {
+  width: 190px;
+  height: 77px;
+  border-bottom-width: 6px;
+  font-size: 18px;
+  line-height: 77px;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: inline-block;
+  background: #f74a4a;
+  color: #fff;
+  border-bottom: 2px solid #e43333;
+  text-align: center;
+  cursor: pointer;
+}
+
+.saosao img {
+  width: 190px;
+  height: 190px;
+  display: block;
+  border: 0;
+  position: absolute;
+  top: 11px;
+  left: 20px;
+  display: none;
+}
+
+.saosao:hover img {
+  display: block;
+}
+
 .activity {
   width: 1190px;
   height: 360px;
   margin-left: auto;
   margin-right: auto;
-  background: yellow;
 }
 
 .activity .act-tit {
@@ -393,6 +1141,15 @@ img {
   display: inline;
 }
 
+.Game-Zone .Zone {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+.Game-Zone .Zone .Zone-tit {
+  padding-top: 20px;
+}
+
 .Game-Zone .Zone .Zone-tit span {
   float: left;
 }
@@ -402,9 +1159,9 @@ img {
 }
 
 .Game-Zone .Zone .Zone-img {
-  background: pink;
+  background: white;
   width: 1190px;
-  height: 800px;
+  height: 306px;
 }
 
 .Game-Zone .Zone .Zone-img .bigImg {
@@ -415,7 +1172,7 @@ img {
 }
 
 .Game-Zone .Zone .Zone-img .Zone-list {
-  width: 765px;
+  width: 767px;
   overflow: hidden;
   float: left;
 }
@@ -434,7 +1191,6 @@ img {
   padding: 20px;
   border-bottom: 1px solid #f3f4f6;
   line-height: 20px;
-  -webkit-transition: margin-left .2s linear;
 }
 
 .Game-Zone .Zone .Zone-img .Zone-list .list-top a span {
@@ -442,6 +1198,7 @@ img {
   height: 20px;
   overflow: hidden;
   text-overflow: ellipsis;
+  color: black;
 }
 
 .Game-Zone .Zone .Zone-img .Zone-list .list-top a img {
@@ -454,4 +1211,121 @@ img {
 
 .Game-Zone .Zone .Zone-img .Zone-list .list-top a .red {
   color: #f74a4a;
+}
+
+.Game-Zone .Zone .Zone-img .Zone-list .list-bot li {
+  float: left;
+  border-right: 1px solid #f3f4f6;
+  width: 170px;
+  height: 60px;
+  padding: 20px 0px 20px 20px;
+  line-height: 20px;
+}
+
+.Game-Zone .Zone .Zone-img .Zone-list .list-bot li img {
+  float: left;
+  width: 60px;
+  height: 50px;
+}
+
+.Game-Zone .Zone .Zone-img .Zone-list .list-bot li .red {
+  color: red;
+}
+
+.Game-Zone .Zone .Zone-img .Zone-list .list-bot li a {
+  color: black;
+}
+
+.Game-Zone .Zone .Zone-img .Zone-list .list-bot li p {
+  height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 80px;
+}
+
+.Game-Zone .Zone .Zone-img .list-rt {
+  width: 183px;
+  height: 306px;
+  float: right;
+  position: relative;
+}
+
+.Game-Zone .Zone .Zone-img .list-rt .top {
+  padding-top: 20px;
+  height: 62px;
+  border-top: 0;
+}
+
+.Game-Zone .Zone .Zone-img .list-rt .top .i-sp {
+  height: 53px;
+  background-position: 0 -300px;
+  line-height: 16px;
+}
+
+.Game-Zone .Zone .Zone-img .list-rt .top img {
+  width: 60px;
+  height: 50px;
+}
+
+.Game-Zone .Zone .Zone-img .list-rt dd {
+  height: 43px;
+  border-top: 1px solid #f3f4f6;
+  padding: 5px 5px 5px 0;
+}
+
+.Game-Zone .Zone .Zone-img .list-rt dd img {
+  float: right;
+  width: 40px;
+  height: 34px;
+  margin-top: -36px;
+  border: 0;
+}
+
+.Game-Zone .Zone .Zone-img .list-rt dd p {
+  white-space: nowrap;
+  width: 88px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Game-Zone .Zone .Zone-img .list-rt dd p a {
+  color: #3a3f4a;
+}
+
+.Game-Zone .Zone .Zone-img .list-rt dd .red {
+  color: red;
+}
+
+.Game-Zone .Zone .Zone-img .list-rt dd .i-sp {
+  float: left;
+  width: 20px;
+  height: 24px;
+  background-position: -20px -300px;
+  font-style: normal;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+}
+
+.bot-act {
+  display: block;
+  width: 1190px;
+  clear: both;
+  margin: 20px auto 30px;
+}
+
+.bot-act li {
+  float: left;
+  margin-right: 10px;
+}
+
+.bot-act li img {
+  display: block;
+  width: 390px;
+  height: 146px;
+  padding-bottom: 30px;
+}
+
+.bot-act li:last-child {
+  margin: 0;
 }

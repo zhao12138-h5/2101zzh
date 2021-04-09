@@ -1,0 +1,283 @@
+@import 'public';
+
+.inf-box {
+    width: 1280px;
+    height: 700px;
+
+    margin: 0 auto;
+    position: relative;
+
+    .inf-other {
+        width: 228px;
+        float: left;
+
+        h3 {
+            font-size: 16px;
+            color: #555;
+            font-weight: bold;
+            height: 47px;
+            border-bottom: 2px solid #f3f4f6;
+            line-height: 54px;
+            text-indent: 25px;
+            position: relative;
+            background: white;
+
+            .green-line {
+                position: absolute;
+                top: 47px;
+                left: 16px;
+                z-index: 1;
+                width: 80px;
+                height: 2px;
+                background: #36ab87;
+                display: block;
+            }
+        }
+
+        .listlv {
+            float: left;
+            background: white;
+            width: 228px;
+
+            li {
+                min-height: 71px;
+                height: auto;
+                border-bottom: 1px dashed #e7e7e7;
+                -webkit-transition: all .2s linear;
+                transition: all .2s linear;
+
+                a {
+                    display: block;
+                    width: 100%;
+                    padding-top: 15px;
+
+                    .hor {
+                        position: relative;
+                        margin: 10px 0 0 0;
+                    }
+
+                    .djimg {
+                        float: left;
+
+                        img {
+                            display: block;
+                            width: 76px;
+                            height: 54px;
+                            margin: 0 10px 0 5px;
+                        }
+                    }
+
+                    .djinfo {
+                        width: 108px;
+                        overflow: hidden;
+                        color: #222;
+
+                        .djname {
+                            width: 108px;
+                            font-size: 12px;
+                            font-weight: bold;
+                            height: 14px;
+                            line-height: 12px;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                        }
+
+                        .djprice {
+                            margin-top: 8px;
+                            height: 15px;
+                        }
+
+                        .djcpri {
+                            margin-top: 3px;
+                            color: #333;
+                            height: 18px;
+                            padding-bottom: 15px;
+                        }
+                    }
+                }
+
+                .hor:hover .djname {
+                    color: green;
+                }
+
+                .hor:hover .djcpri {
+                    color: red;
+                }
+            }
+
+        }
+    }
+
+    .goodList {
+        width: 925px;
+        height: 560px;
+        background: white;
+        float: left;
+        margin-left: 15px;
+
+        img {
+            width: 260px;
+            height: 154px;
+            display: block;
+            float: left;
+        }
+
+        span {
+            display: block;
+            text-indent: 40px;
+
+            line-height: 37px;
+            display: block;
+            font-size: 14px;
+            color: #606060;
+        }
+
+        .bg {
+            width: 456px;
+            height: 76px;
+            background: url(../../dist/img/comico.png) no-repeat;
+            background-position: -5px -143px;
+            position: relative;
+            margin-left: 260px;
+        }
+
+        #a1 {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2e2e2e;
+            display: block;
+            position: absolute;
+            top: -8px;
+            left: 260px;
+        }
+
+        .goodInfo {
+            display: inline-block;
+            width: 600px;
+            height: 200px;
+            padding-top: 20px;
+            margin-left: 55px;
+            margin-top: 80px;
+            position: relative;
+        }
+
+        .big {
+            width: 16px;
+            height: 15px;
+            background: yellow;
+            position: absolute;
+            bottom: 28px;
+            left: 243px;
+            background: url(../../dist/img/comico.png) no-repeat;
+            background-position: -5px -969px;
+        }
+
+        i {
+            font-style: normal;
+            position: absolute;
+            bottom: 16px;
+            left: 90px;
+        }
+    }
+
+    .tocart {
+        margin: 10px 9px 0 15px;
+        display: block;
+        width: 142px;
+        height: 42px;
+        line-height: 42px;
+        text-align: center;
+        font-size: 18px;
+        color: #fff;
+        background: #f25806;
+        float: left;
+    }
+
+    .tocart:last-child {
+        background: #1c91f5;
+    }
+
+    .inf-bot {
+        display: block;
+        margin: 140px 0 20px 30px;
+        background: #fafbfc;
+        width: 800px;
+        height: 100px;
+        border: 1px solid #ddd;
+
+        .inf-bot-top {
+            display: block;
+            height: 20px;
+            width: 750px;
+
+            position: relative;
+            background-color: #fff;
+            background: url(//js01.daoju.qq.com/common/images/channel/revision/lol/comico.png) no-repeat;
+            background-position: -5px -229px;
+
+            a {
+                display: block;
+                width: 75px;
+                height: 20px;
+                float: left;
+                position: absolute;
+                line-height: 35px;
+                text-align: center;
+                color: #535353;
+                font-size: 14px;
+                background-color: #fff;
+                font-weight: bolder;
+            }
+
+            span {
+                float: right;
+            }
+        }
+
+        p {
+            margin: 35px 0 0 70px;
+        }
+    }
+}
+
+#cart {
+    display: none;
+}
+
+#buy {
+    position: absolute;
+    top: -115px;
+    right: -79px;
+    width: 192px;
+    color: #ff5900;
+    height: 50px;
+}
+
+.tabbbg {
+    width: 100%;
+    height: 52px;
+    background: #f3f4f6;
+    margin-top: 78px;
+
+    .tabb {
+        width: 1190px;
+        height: 52px;
+        margin: 0 auto;
+
+        a {
+            float: left;
+            width: 118px;
+            height: 52px;
+            font-size: 14px;
+            color: #222;
+            text-align: center;
+            display: block;
+            line-height: 52px;
+        }
+
+        a:hover {
+            color: yellowgreen;
+        }
+    }
+}

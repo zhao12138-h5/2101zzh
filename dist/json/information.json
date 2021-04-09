@@ -1,0 +1,16 @@
+{
+    "leftLtName": "热门排行",
+    "leftLtValue":
+    [
+       {"id":"01","value": "猩红之月 烬", "img": "../../dist/img/20170216_28862_2202.jpg","Qmoney" : "79.00","WXmoney" : "76.63"},
+       {"id":"02","value": "屠龙勇士 赵信", "img": "../../dist/img/20170315_0_5169.jpg","Qmoney" : "79.00","WXmoney" : "76.63"},
+       {"id":"03","value": "死亡绽放 卡兹克", "img": "../../dist/img/121003_190.jpg","Qmoney" : "69.00","WXmoney" : "66.93"},
+       {"id":"04","value": "泳池派对 德莱文", "img": "../../dist/img/20150715220820_82148.jpg","Qmoney" : "49.50","WXmoney" : "48.01"},
+       {"id":"05","value": "源计划：联合", "img": "../../dist/img/20160801_24071_7135.jpg","Qmoney" : "99.00","WXmoney" : "96.03"},
+       {"id":"06","value": "灌篮高手 德莱厄斯", "img": "../../dist/img/122004.jpg","Qmoney" : "69.00","WXmoney" : "66.93"},
+       {"id":"07","value": "驯龙女巫 婕拉", "img": "../../dist/img/20170315_0_5757.jpg","Qmoney" : "79.00","WXmoney" : "76.63"},
+       {"id":"08","value": "源计划：雷 卢锡安", "img": "../../dist/img/236006.jpg","Qmoney" : "79.00","WXmoney" : "76.63"},
+       {"id":"09","value": "腥红之月 亚索", "img": "../../dist/img/157003_190.jpg","Qmoney" : "79.00","WXmoney" : "76.63"},
+       {"id":"10","value": "泳池派对 璐璐", "img": "../../dist/img/20150715220520_97232.jpg","Qmoney" : "49.50","WXmoney" : "48.01"}
+    ]
+}

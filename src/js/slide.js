@@ -94,9 +94,9 @@ $.ajax({
             `).appendTo(".ft-carousel .carousel-inner")
             //console.log(result.slideValue[index].id);
             
-            $(`
-            <span data-index="${index}"></span>
-            `).appendTo(".carousel-indicators")
+            // $(`
+            // <span data-index="${index}"></span>
+            // `).appendTo(".carousel-indicators")
         });
     },
     error: function (msg) {

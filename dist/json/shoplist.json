@@ -1,0 +1,37 @@
+{
+    "leftLtName": "热门排行",
+    "leftLtValue":
+    [
+       {"id":"01","value": "猩红之月 烬", "img": "../../dist/img/20170216_28862_2202.jpg","Qmoney" : "79.00","WXmoney" : "76.63"},
+       {"id":"02","value": "屠龙勇士 赵信", "img": "../../dist/img/20170315_0_5169.jpg","Qmoney" : "79.00","WXmoney" : "76.63"},
+       {"id":"03","value": "死亡绽放 卡兹克", "img": "../../dist/img/121003_190.jpg","Qmoney" : "69.00","WXmoney" : "66.93"},
+       {"id":"04","value": "泳池派对 德莱文", "img": "../../dist/img/20150715220820_82148.jpg","Qmoney" : "49.50","WXmoney" : "48.01"},
+       {"id":"05","value": "源计划：联合", "img": "../../dist/img/20160801_24071_7135.jpg","Qmoney" : "99.00","WXmoney" : "96.03"},
+       {"id":"06","value": "灌篮高手 德莱厄斯", "img": "../../dist/img/122004.jpg","Qmoney" : "69.00","WXmoney" : "66.93"},
+       {"id":"07","value": "驯龙女巫 婕拉", "img": "../../dist/img/20170315_0_5757.jpg","Qmoney" : "79.00","WXmoney" : "76.63"},
+       {"id":"08","value": "源计划：雷 卢锡安", "img": "../../dist/img/236006.jpg","Qmoney" : "79.00","WXmoney" : "76.63"},
+       {"id":"09","value": "腥红之月 亚索", "img": "../../dist/img/157003_190.jpg","Qmoney" : "79.00","WXmoney" : "76.63"},
+       {"id":"10","value": "泳池派对 璐璐", "img": "../../dist/img/20150715220520_97232.jpg","Qmoney" : "49.50","WXmoney" : "48.01"}
+    ],
+    "listlvName": "热门排行",
+    "listlvValue":
+    [
+       {"value": "太空律动 “猫猫” 布里和里茨", "img": "../../dist/img/N-lol-1-100000-148330.jpg","Qmoney" : "79","WXmoney" : "76.63","href" : "../../dist/pages/Information.html"},
+       {"value": "太空律动 “串烧大师”  兰博", "img": "../../dist/img/N-lol-1-100000-148331.jpg","Qmoney" : "79","WXmoney" : "76.63","href" : "../../dist/pages/Information1.html"},
+       {"value": "太空律动 “狗头” 内瑟斯", "img": "../../dist/img/N-lol-1-100000-148332.jpg","Qmoney" : "79","WXmoney" : "76.63","href" : "../../dist/pages/Information2.html"},
+       {"value": "太空律动 “舞林双子” 努努和威朗普", "img": "../../dist/img/N-lol-1-100000-148329.jpg","Qmoney" : "79","WXmoney" : "76.63","href" : "../../dist/pages/Information.html"},
+       {"value": "太空律动 “闪耀灯球” 拉克丝", "img": "../../dist/img/N-lol-1-100000-148333.jpg","Qmoney" : "99","WXmoney" : "96.03","href" : "../../dist/pages/Information1.html"},
+       {"value": "太空律动 “节奏幻师” 璐璐", "img": "../../dist/img/N-lol-1-100000-148334.jpg","Qmoney" : "79","WXmoney" : "76.63","href" : "../../dist/pages/Information2.html"},
+       {"value": "太空律动 “音浪狂舞” 莎弥拉", "img": "../../dist/img/N-lol-1-100000-148336.jpg","Qmoney" : "79","WXmoney" : "76.63","href" : "../../dist/pages/Information.html"},
+       {"value": "50个太空律动法球赠2奢华福袋赠1布里包赠800币", "img": "../../dist/img/pkg-26711.jpg","Qmoney" : "500","WXmoney" : "485.00","href" : "../../dist/pages/Information1.html"},
+       {"value": "25个太空律动法球赠1个奢华福袋赠400个币", "img": "../../dist/img/pkg-26710.jpg","Qmoney" : "250","WXmoney" : "242.50","href" : "../../dist/pages/Information2.html"},
+       {"value": "11个太空律动法球赠160个币", "img": "../../dist/img/pkg-26709.jpg","Qmoney" : "100","WXmoney" : "97.00","href" : "../../dist/pages/Information.html"},
+       {"value": "1个太空律动法球赠16个币", "img": "../../dist/img/pkg-26708.jpg","Qmoney" : "10","WXmoney" : "9.70","href" : "../../dist/pages/Information1.html"},
+       {"value": "太空律动(2021)通行证", "img": "../../dist/img/pkg-26707.jpg","Qmoney" : "79","WXmoney" : "76.63","href" : "../../dist/pages/Information2.html"},
+       {"value": "太空律动(2021)终极大礼包", "img": "../../dist/img/pkg-26706.jpg","Qmoney" : "682.4","WXmoney" : "661.92","href" : "../../dist/pages/Information.html"},
+       {"value": "太空律动 “音浪狂舞”莎弥拉 完全体", "img": "../../dist/img/pkg-26704.jpg","Qmoney" : "121.5","WXmoney" : "117.85","href" : "../../dist/pages/Information1.html"},
+       {"value": "太空律动 “节奏幻师” 璐璐 完全体", "img": "../../dist/img/pkg-26703.jpg","Qmoney" : "116.5","WXmoney" : "113.00","href" : "../../dist/pages/Information2.html"},
+       {"value": "太空律动 “猫猫” 布里和里茨 完全体", "img": "../../dist/img/pkg-26702.jpg","Qmoney" : "131.5","WXmoney" : "127.55","href" : "../../dist/pages/Information.html"}
+    
+    ]
+}

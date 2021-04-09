@@ -1,0 +1,57 @@
+@import 'public';
+body{
+    
+}
+.regdiv{
+    width: 360px;
+    height: 400px;
+    background: #eee;
+    position: fixed;
+    top: 120px;
+    left: 580px;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid rgb(33, 35, 69);
+    i{
+        display: inline-block;
+        font-style: normal;
+        font-weight: bold;
+        text-align: center;
+        font-size: 32px;
+        height: 80px;
+        line-height: 80px;
+        width: 360px;
+    }
+    input{
+        width: 210px;
+        height: 36px;
+        
+    }
+    #username{
+        margin: 10px 0 20px 0;
+    }
+    #password{
+        margin: 0 0 20px 0;
+    }
+    p:nth-of-type(3) span{
+        font-size: 16px;
+    }
+    span{
+        font-size: 20px;
+        text-indent: 22px;
+        display: inline-block;
+    }
+    button{
+        width: 120px;
+        height: 40px;
+        position: absolute;
+    }
+    #register{
+        left: 50px;
+        bottom: 100px;
+    }
+    #goLogin{
+        right: 50px;
+        bottom: 100px;
+    }
+}

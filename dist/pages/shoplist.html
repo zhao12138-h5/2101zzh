@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>列表页</title>
+    <link rel="stylesheet" href="../../dist/css/shoplist.min.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.js"></script>
+    <script src="../../dist/js/shoplist.min.js"></script>
+
+</head>
+
+<body>
+    <script>
+        $.ajax({
+            url: '../pages/public-head.html',
+            type: 'post',
+            async: true,
+            success: function (data) {
+                $("body").prepend(data);
+            }
+        });
+    </script>
+
+   
+    <div style="height: 76px;width: 100%;"></div>
+    <div class="tab">
+
+    </div>
+    <div class="listitem">
+        <div class="leftlist">
+            <h3>热门排行<span class="green-line"></span></h3>
+            <div class="listlv">
+                <li>
+                    <a href="" id="hotlv">
+                        <!-- <div class="hor">
+                        <div class="comico">01</div>
+                        <div class="djimg">
+                            <img src="../../dist/img/20170216_28862_2202.jpg">
+                        </div>
+                        <div class="djinfo">
+                            <p class="djname">腥红之月 烬</p>
+                            <p class="djprice">Q币价：79.00 Q币</p>
+                            <p class="djcpri" style="font-size:12px;">微信价：
+                                <strong>￥76.63 </strong>
+                            </p>
+                        </div>
+                    </div> -->
+                    </a>
+                </li>
+            </div>
+        </div>
+
+        <div class="mainlist">
+            <div class="filter">
+                <div class="filter-top">
+                    <div id="filter-top-lf">
+                        <label>关键字：</label>
+                        <input type="text">
+                    </div>
+                    <div class="filter-top-rg" style="text-align: left;">
+                        价格区间(QB)：
+                        <input id="ipt-list-price-from" type="text" class="input-area-txt">
+                        <label> -</label>
+                        <input id="ipt-list-price-to" type="text" class="input-area-txt">
+                    </div>
+                    <div class="fl">
+                        <a href="#" class="btn-sure" id="btn-list-search" title="确定">
+                            确定
+                        </a>
+                    </div>
+                </div>
+                <div class="filter-bot">
+                   <div class="filter-bot-lf">
+                       <a href="">上架时间</a>
+                       <a href="">销量</a>
+                       <a href="">价格</a>
+                   </div>
+                   <div class="filter-bot-rg">
+                       <input type="checkbox"><a>显示未拥有</a> 
+                       <input type="checkbox"><a>显示已拥有</a>
+                   </div>
+                </div>
+            </div>
+            <div class="listshops">
+                <!-- <dl>
+                    <dt>
+                         <a href="#" target="_blank">
+                            <img src="../../dist/img/N-lol-1-100000-148333.jpg" alt="太空律动 “闪耀灯球” 拉克丝">
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#" class="djname" target="_blank">
+                            <strong>太空律动 “闪耀灯球” 拉克丝</strong></a>
+                         <div class="bxlist-t1">
+                            Q币价：<span class="t2">&nbsp;&nbsp;&nbsp;</span>
+                            <span class="t2 fwb">79</span><span class="t2 fwb"> Q币</span>
+                        </div>
+                        <div class="bxlist-t1">
+                            微信价：<span class="t2">&nbsp;&nbsp;&nbsp;￥76.63</span>
+                        </div>
+                         <div class="bxlist-t2">
+                            <a href="javascript:;" class="buy-now" title="立即购买">
+                                立即购买</a>
+                        </div>
+                        <span class=""></span>
+                    </dd>
+                </dl> -->
+                
+            </div>
+            <div id="pagination" class="pagination" style="margin: 10px 0 0 150px;"></div>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        $.ajax({
+            url: '../pages/public-foot.html',
+            type: 'post',
+            async: true,
+            success: function (data) {
+                $("body").append(data);
+            }
+        });
+    </script>
+</body>
+
+</html>

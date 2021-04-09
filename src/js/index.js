@@ -1,42 +1,3 @@
-// 平行导航栏
-$.ajax({
-    url: 'json/index.json',
-    type: 'get',
-    dataType: 'json',
-    success: function (data) {
-        //请求成功时执行该函数内容，result即为服务器返回的json对象
-        //$("#list").html('');
-
-        $.each(data.nav, function (index, value) { //index是循环的序数
-            var name = data.nav[index].name;
-            var value = data.nav[index].value;
-            //console.log(this.value);
-            $("#list").html($("#list").html() + `<a href=` + `${this.value}` + `>` + this.name + "</a>");
-        });
-    },
-    // error: function (errorMsg) {
-    //     //请求失败时执行该函数
-    //     alert("请求数据失败!");
-    // }
-})
-//左导航栏
-$.ajax({
-    url:'json/index.json',
-    type:'get',
-    dataType:'json',
-    success:function(data){
-        $.each(data.leftNav, function (index, value) { //index是循环的序数
-            var name = data.leftNav[index].name;
-            var value = data.leftNav[index].value;
-           // console.log(this.value);
-            $("#left-list").html($("#left-list").html() + `<a href=` + `${this.value}` + `>` + this.name + "</a>");
-        });
-    },
-    // error: function (errorMsg) {
-    //     //请求失败时执行该函数
-    //     alert("请求数据失败!");
-    // }
-})
 //热卖推荐
 $.ajax({
     url:'json/index.json',
@@ -60,7 +21,7 @@ $.ajax({
              <a href="${hotTextValue2}">${hotTextName2}</a>
              <p>${hotTextName3}<b>${hotTextName4}</b></p>
              <p>${hotTextName5}</p>
-             <a href="">立即抢购</a>
+             <a href="../dist/pages/shoplist.html">立即抢购</a>
           </span></li>
              `).appendTo("#hotImg");
         });
@@ -77,28 +38,140 @@ $.ajax({
     type:'get',
     dataType:'json',
     success:function(result){
+        // 第一个
+        $.each(result.leftnav11, function (index, value) { //index是循环的序数
+            var leftName1 = result.leftnav11[index].name;
+            var leftValue1 = result.leftnav11[index].value;
+            $(`
+            <li><a href="${leftValue1}">${leftName1}</a></li>
+            `).appendTo(".col-1 .inner1");
+        });
+        $.each(result.leftnav12, function (index, value) { //index是循环的序数
+            var leftName2 = result.leftnav12[index].name;
+            var leftValue2 = result.leftnav12[index].value;
+            $(`
+            <li><a href="${leftValue2}">${leftName2}</a></li>
+            `).appendTo(".col-1 .inner2");
+        });
+        $.each(result.leftnav13, function (index, value) { //index是循环的序数
+            var leftName3 = result.leftnav13[index].name;
+            var leftValue3 = result.leftnav13[index].value;
+            $(`
+            <li><a href="${leftValue3}">${leftName3}</a></li>
+            `).appendTo(".col-1 .inner3");
+        });
+
+        // 第二个
         $.each(result.leftnav31, function (index, value) { //index是循环的序数
             var leftName1 = result.leftnav31[index].name;
             var leftValue1 = result.leftnav31[index].value;
+            $(`
+            <li><a href="${leftValue1}">${leftName1}</a></li>
+            `).appendTo(".col-2 .inner1");
+        });
+        $.each(result.leftnav32, function (index, value) { //index是循环的序数
+            var leftName2 = result.leftnav32[index].name;
+            var leftValue2 = result.leftnav32[index].value;
+            $(`
+            <li><a href="${leftValue2}">${leftName2}</a></li>
+            `).appendTo(".col-2 .inner2");
+        });
+        $.each(result.leftnav33, function (index, value) { //index是循环的序数
+            var leftName3 = result.leftnav33[index].name;
+            var leftValue3 = result.leftnav33[index].value;
+            $(`
+            <li><a href="${leftValue3}">${leftName3}</a></li>
+            `).appendTo(".col-2 .inner3");
+        });
+
+        // 第三个
+        $.each(result.leftnav31, function (index, value) { //index是循环的序数
+            var leftName1 = result.leftnav31[index].name;
+            var leftValue1 = result.leftnav31[index].value;
+             $(`
+               <li><a href="${leftValue1}">${leftName1}</a></li>
+             `).appendTo(".col-3 .inner1");
+        });
+        $.each(result.leftnav32, function (index, value) { //index是循环的序数
+            var leftName2 = result.leftnav32[index].name;
+            var leftValue2 = result.leftnav32[index].value;
+             $(`
+               <li><a href="${leftValue2}">${leftName2}</a></li>
+             `).appendTo(".col-3 .inner2");
+        });
+        $.each(result.leftnav33, function (index, value) { //index是循环的序数
+            var leftName3 = result.leftnav33[index].name;
+            var leftValue3 = result.leftnav33[index].value;
+             $(`
+               <li><a href="${leftValue3}">${leftName3}</a></li>
+             `).appendTo(".col-3 .inner3");
+        });
+        // 第四个
+        $.each(result.leftnav31, function (index, value) { //index是循环的序数
+            var leftName1 = result.leftnav31[index].name;
+            var leftValue1 = result.leftnav31[index].value;
+            $(`
+            <li><a href="${leftValue1}">${leftName1}</a></li>
+            `).appendTo(".col-4 .inner1");
+        });
+        $.each(result.leftnav32, function (index, value) { //index是循环的序数
+            var leftName2 = result.leftnav32[index].name;
+            var leftValue2 = result.leftnav32[index].value;
+            $(`
+            <li><a href="${leftValue2}">${leftName2}</a></li>
+            `).appendTo(".col-4 .inner2");
+        });
+        $.each(result.leftnav33, function (index, value) { //index是循环的序数
+            var leftName3 = result.leftnav33[index].name;
+            var leftValue3 = result.leftnav33[index].value;
+            $(`
+            <li><a href="${leftValue3}">${leftName3}</a></li>
+            `).appendTo(".col-4 .inner3");
+        });
+
+        // 第五个
+        $.each(result.leftnav31, function (index, value) { //index是循环的序数
+            var leftName1 = result.leftnav31[index].name;
+            var leftValue1 = result.leftnav31[index].value;
+            $(`
+            <li><a href="${leftValue1}">${leftName1}</a></li>
+            `).appendTo(".col-5 .inner1");
+        });
+        $.each(result.leftnav32, function (index, value) { //index是循环的序数
+            var leftName2 = result.leftnav32[index].name;
+            var leftValue2 = result.leftnav32[index].value;
+            $(`
+            <li><a href="${leftValue2}">${leftName2}</a></li>
+            `).appendTo(".col-5 .inner2");
+        });
+        $.each(result.leftnav33, function (index, value) { //index是循环的序数
+            var leftName3 = result.leftnav33[index].name;
+            var leftValue3 = result.leftnav33[index].value;
+            $(`
+            <li><a href="${leftValue3}">${leftName3}</a></li>
+            `).appendTo(".col-5 .inner3");
+        });
+    }
+})
+
+//最底下活动
+$.ajax({
+    url:'json/index.json',
+    type:'get',
+    dataType:'json',
+    success:function(result){
+        $.each(result.botactvalue, function (index, value) { //index是循环的序数
+            var botactimg = result.botactvalue[index].img;
+            var botactvalue = result.botactvalue[index].value;
             // var leftName2 = result.leftnav32[index].name;
             // var leftValue2 = result.leftnav32[index].value;
             // var leftName3 = result.leftnav33[index].name;
             // var leftValue3 = result.leftnav33[index].value;
              $(`
-                 <a title="${leftName1}" href="${leftValue1}">${leftName1}</a>
-             `).appendTo(".dev");
+             <li>
+                <a href="${botactvalue}"><img src="${botactimg}" alt=""></a>
+             </li>  
+            `).appendTo(".btact");
         });
-    },
-    // success:function(result2){
-    //     $.each(result2.leftnav32, function (index, value) { //index是循环的序数
-    //         var leftName2 = result2.leftnav32[index].name;
-    //         var leftValue2 = result2.leftnav32[index].value;
-    //          $(`
-    //              <a title="${leftName2}" href="${leftValue2}">${leftName2}</a>
-    //          `)
-    //     });
-    // }
+    }
 })
-
-
-

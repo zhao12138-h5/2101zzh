@@ -1,0 +1,392 @@
+@import 'public';
+
+.tab {
+    width: 1190px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    background: #e6e6e8;
+    margin: 0 auto;
+}
+
+.location-box {
+    margin: 24px auto 8px;
+    width: 1190px;
+    color: #606060;
+    height: 18px;
+    position: relative;
+    zoom: 1;
+    cursor: pointer;
+}
+
+.listitem {
+    width: 1190px;
+   
+    margin: 0 auto;
+
+    .leftlist {
+        width: 228px;
+
+        h3 {
+            font-size: 16px;
+            color: #555;
+            font-weight: bold;
+            height: 47px;
+            border-bottom: 2px solid #f3f4f6;
+            line-height: 54px;
+            text-indent: 25px;
+            position: relative;
+            background: white;
+
+            .green-line {
+                position: absolute;
+                top: 47px;
+                left: 16px;
+                z-index: 1;
+                width: 80px;
+                height: 2px;
+                background: #36ab87;
+                display: block;
+            }
+        }
+
+        .listlv {
+            float: left;
+            background: white;
+            width: 228px;
+
+            li {
+                min-height: 71px;
+                height: auto;
+                border-bottom: 1px dashed #e7e7e7;
+                -webkit-transition: all .2s linear;
+                transition: all .2s linear;
+
+                a {
+                    display: block;
+                    width: 100%;
+                    padding-top: 15px;
+
+                    .hor {
+                        position: relative;
+                        margin: 10px 0 0 0;
+                    }
+
+                    .comico {
+                        position: absolute;
+                        top: -6px;
+                        left: 0;
+                        z-index: 1;
+                        display: block;
+                        width: 20px;
+                        height: 24px;
+                        background-position: -5px -592px;
+                        font-size: 12px;
+                        text-align: center;
+                        line-height: 20px;
+                        color: #fff;
+                        background: url("../../dist/img/comico.png") no-repeat -5px -592px;
+                    }
+
+                    .djimg {
+                        float: left;
+
+                        img {
+                            display: block;
+                            width: 76px;
+                            height: 54px;
+                            margin: 0 10px 0 5px;
+                        }
+                    }
+
+                    .djinfo {
+                        width: 108px;
+                        overflow: hidden;
+                        color: #222;
+
+                        .djname {
+                            width: 108px;
+                            font-size: 12px;
+                            font-weight: bold;
+                            height: 14px;
+                            line-height: 12px;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                        }
+
+                        .djprice {
+                            margin-top: 8px;
+                            height: 15px;
+                        }
+
+                        .djcpri {
+                            margin-top: 3px;
+                            color: #333;
+                            height: 18px;
+                            padding-bottom: 15px;
+                        }
+                    }
+                }
+
+                .hor:hover .djname {
+                    color: green;
+                }
+
+                .hor:hover .djcpri {
+                    color: red;
+                }
+            }
+        }
+    }
+
+    .mainlist {
+        width: 952px;
+        height: 1814px;
+        background: #ededed;
+        margin-top: -50px;
+        float: right;
+
+        .filter {
+            width: 952px;
+            height: 106px;
+            background: #ededed;
+            position: relative;
+
+            .filter-top {
+                width: 952px;
+                position: absolute;
+                top: 21px;
+                left: 32px;
+
+                #filter-top-lf {
+                    float: left;
+
+                    input {
+                        height: 24px;
+                        border: 1px solid #ccc;
+                        width: 338px;
+                        padding: 0 2px;
+                        margin-left: 3px
+                    }
+                }
+
+                .filter-top-rg {
+                    text-align: left;
+                    margin-left: 20px;
+                    float: left;
+
+                    input {
+                        height: 24px;
+                        border: 1px solid #ccc;
+                        width: 34px;
+                        margin: 0 3px;
+                        padding: 0 2px;
+                    }
+                }
+
+                .btn-sure {
+                    background: #f5f5f5;
+                    width: 44px;
+                    height: 24px;
+                    line-height: 24px;
+                    display: inline-block;
+                    overflow: hidden;
+                    border: 1px solid #ccc;
+                    color: #222;
+                    font-size: 12px;
+                    text-align: center;
+                    margin-left: 10px;
+                }
+            }
+            .filter-bot{
+                padding: 0 18px;
+                position: absolute;
+                bottom: 10px;
+                left: 32px;
+                .filter-bot-lf{
+                    float: left;
+                    a{
+                        margin: 0 30px 0 20px;
+                        color: #9f9f9f;
+                        height: 28px;
+                        line-height: 28px;
+                        position: relative;
+                        font-size: 14px;
+                    }
+                    a:first-child{
+                      color: red;
+                    
+                    } 
+                }
+                .filter-bot-rg{
+                   float: left;
+                   margin: 4px 0 0 40px;
+                   font-size: 13px;
+                   input{
+                       width: 25px;
+                       height: 13px;
+                   }
+                }
+            }
+        }
+        .listshops{
+            width: 952px;
+            height: 1590px;
+            background: #ededed;
+            margin-top: 15px;
+            padding-top: 50px;
+            dl {
+                margin: 0 16px 19px 16px;
+                zoom: 1;
+                float: left;
+                width: 202px;
+                height: 370px;
+                display: block;
+                position: relative;
+                color: #606060;
+                background: url(//js01.daoju.qq.com/common/images/channel/revision/lol/indexico.png) no-repeat;
+                background-position: -237px -6px;
+                z-index: 11;
+                cursor: default;
+                img {
+                    margin: 23px auto 0;
+                    display: block;
+                    width: 116px;
+                    height: 212px;
+                }
+                dt {
+                    float: left;
+                    margin-bottom: 11px;
+                    width: 202px;
+                    height: 235px;
+                    display: block;
+                    position: relative;
+                }
+
+                dd {
+                    line-height: 17px;
+                    text-align: center;
+                    .djname {
+                        color: #2e2e2e;
+                        line-height: 20px;
+                        cursor: pointer;
+                        font-size: 14px;
+                    }
+
+                    .t2 {
+                        color: #ff5900;
+                        font-size: 14px;
+                        font-weight: bold;
+                    }
+                    .bxlist-t2 {
+                        margin: 10px auto 0;
+                        width: 124px;
+                        height: 32px;
+
+                        .buy-now {
+                            width: 124px;
+                            height: 32px;
+                            line-height: 32px;
+                            text-align: center;
+                            color: #fff;
+                            display: block;
+                            background: #2e9d7b;
+                        }
+                    }
+                   
+                }
+            }
+            dl:hover {
+                background-position: -237px -385px;
+            }
+        }
+    }
+}
+
+//  分页
+.pagination ul {
+    list-style: none;
+    padding-left: 0;
+
+    li {
+        padding: 0 10px;
+        vertical-align: top;
+        display: inline-block;
+        font-size: 14px;
+        min-width: 36px;
+        min-height: 28px;
+        line-height: 36px;
+        cursor: pointer;
+        box-sizing: border-box;
+        text-align: center;
+        background-color: #ffffff;
+        color: #606266;
+        // border-radius: 6px;
+        margin: 0 1px;
+        border: 1px solid #ebebeb;
+        height: 36px;
+    }
+}
+
+
+.pagination ul li:hover {
+    transform: scale(1.1);
+    background-color: #F4F6F8;
+    border: 1px solid #36ab87;
+    color: #36ab87;
+    background: #fff;
+}
+
+.pagination  li.active {
+    background: #98A6AD;
+    color: white;
+    cursor: not-allowed;
+}
+
+.pagination li.disabled {
+    cursor: not-allowed;
+}
+.pagination li.totalPage {
+    background: transparent;
+    cursor: default;
+    border: none;
+    padding: 0 6px;
+}
+
+.pagination li.totalPage:hover {
+    transform: none;
+    background-color: #ffffff;
+}
+
+
+.pagination li input {
+    -webkit-appearance: none;
+    background-color: #fff;
+    // background-image: none;
+    // border-radius: 4px;
+    border: 1px solid #dcdfe6;
+    box-sizing: border-box;
+    color: #606266;
+    display: inline-block;
+    font-size: inherit;
+    outline: none;
+    padding: 3px 5px;
+    transition: border-color .2s cubic-bezier(.645,.045,.355,1);
+    width: 40px;
+    height: 36px;
+    margin: 0 6px;
+}
+
+.pagination li input:focus{
+    border-color: #98A6AD;
+}
+.pagination{
+    user-select: none;
+}
+
+.pagination ul:nth-child(2){
+    // border-radius: 6px;
+}
+
+

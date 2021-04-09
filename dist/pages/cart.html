@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>购物车</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.js"></script>
+    <script src="../../dist/js/jquery-1.11.3.min.js"></script>
+	<script src="../../dist/js/jquery.cookie.min.js"></script>
+	<link rel="stylesheet" href="../../dist/css/cart.min.css">
+</head>
+
+	<body>
+		<script>
+            $.ajax({
+                url: '../pages/public-head.html',
+                type: 'post',
+                async: true,
+                success: function (data) {
+                    $("body").prepend(data);
+                }
+            });
+        </script>
+		<p style="margin-top: 90px; cursor: pointer;margin-left: 100px;margin-bottom: 10px;">您现在的位置：>购物车</p>
+		<div class="cartlistbg">
+			<span class="a">收货角色信息</span>
+			<p>选择游戏角色:</p>
+			<div class="cartList">
+				<span class="a">商品信息</span>
+				<ul class="cartHead">
+					<li>缩略图</li>
+					<li>品名</li>
+					<li>单价</li>
+					<li>数量</li>
+					<li>小计</li>
+					<li>操作</li>
+				</ul>
+				
+				<!--<ul class="goodInfo" data-good-id="sp1">
+						<li><img src="img/1.jpg" /></li>
+						<li>测试</li>
+						<li>30</li>
+						<li class="num">
+							<a href="javascript:;" class="minus">-</a>
+							<input type="text" name="" id="" value="2" />
+							<a href="javascript:;" class="plus">+</a>
+						</li>
+						<li class="total">60</li>
+						<li><a href="javascript:;" class="del">删除</a></li>
+					</ul>-->
+				<div class="blank">
+					您的购物车空空如也~~
+				</div>
+				
+				</div>
+				<div class="discounts">
+					<span class="a">您的优惠信息</span>
+					<p>➕使用购物点（0） &nbsp;&nbsp;&nbsp;&nbsp;<a href="">[查看购物点使用说明]</a> </p>
+				    <div class="cart-t1">
+						<span style="float:left;display:inline-block;color:red;font-weight:bold;font-size:12px;text-align:left;"><span style="max-width:320px;overflow:hidde;word-wrap:break-word;float:left;">英雄联盟周边商城火热上线</span><a href="https://mall.qq.com/lol/" target="_blank">查看详情</a></span>
+						实付款<span class="red">0.00</span>Q币
+						<a onclick="alert('别点了结不了!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')" id="tobuy">提交订单</a>
+					</div>
+					<div class="hint">
+						<span class="a">温馨提示：</span>
+						<p style="color: red;">"LOL优惠券使用规则：[道具包]分类道具全场无法使用，每张优惠券的信息，请仔细核对以下信息：订单满减的金额是否符合要求、优惠券限定可用的道具范围。"</p>
+						<p>"购买成功后系统会自动发货，如发货失败24小时内会自动补发。"</p>
+						<p>"请确认游戏中是否存在购物车中的英雄或皮肤，如果存在，请勿重复购买。"</p>
+						<p>"请重新登录游戏查收物品。"</p>
+
+					</div>
+				</div>
+		</div>
+		<script>
+            $.ajax({
+                url: '../../dist/pages/public-foot.html',
+                type: 'post',
+                async: true,
+                success: function (data) {
+                    $("body").append(data);
+                }
+            });
+        </script>
+		<script src="../../dist/js/cart.min.js"></script>
+		
+	</body>
+
+</html>
